@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family: 'FiraSans-Bold';
+  src: url('../../TagifilesHome/fonts/FiraSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('../../TagifilesHome/fonts/FiraSans-Light.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('../../TagifilesHome/fonts/FiraSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('../../TagifilesHome/fonts/FiraSans-Regular.ttf');
+}
+body {
+    font-family: 'FiraSans-Regular';
+}
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.navbar-collapse .navbar-nav.d-flex {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    font-family: 'FiraSans-Bold';
+}
+.SignIn {
+    background: #1d55a4;
+    border-radius: 20px;
+}
+.SignIn a {
+    color: #fff !important;
+}
+.BannerText h1 {
+    font-family: 'FiraSans-Bold';
+}
+.btn-primary {
+    background: #1d55a4;
+    border-color: #1d55a4;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.btn-primary:hover {
+    background: #1d55a4;
+    border-color: #1d55a4;
+}
+.btn-primary:focus, .btn-primary:active {
+    outline: 0;
+    box-shadow: none !important;
+    background: #1d55a4;
+    border-color: #1d55a4;
+}
+.BannerSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.AlignItems {
+    align-items: center;
+}
+.BannerText {
+    padding: 0 75px;
+}
+.ImageShow {
+    padding: 0 75px;
+    overflow: hidden;
+}
+.ServingImg {
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+}
+video {
+    width: 101%;
+    border:none;
+    position: relative;
+    left: -2px;
+    right: 3px;
+}
+video:focus {
+    outline: dotted;
+}
+.RightLinkArrow {
+    text-decoration: none;
+}
+.DeviceCard .card-title {
+    font-family: 'FiraSans-Bold';
+    text-transform: uppercase;
+}
+.DeviceCard .card-text {
+    font-size: 12px;
+}
+.DeviceCard {
+    border:none;
+    background: #000;
+    border-radius: 0;
+}
+.DeviceCard a {
+    color: #fff !important;
+}
+.DeviceCard:hover {
+    background: #1d55a4;
+}
+.DeviceCard .card-body {
+    padding-bottom: 0;
+}
+.DeviceImg {
+    height:65px;
+    display: flex
+}
+.FuturesSection {
+    padding: 150px 0;
+}
+.FuturesText h4 {
+    font-family: 'FiraSans-Bold';
+    text-transform: uppercase;
+}
+.FuturesText p {
+    width: 90%;
+    font-size: 12px;
+}
+.carousel-inner {
+    box-shadow: -5px 5px 20px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: -5px 5px 20px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: -5px 5px 20px 0px rgba(0,0,0,0.15); 
+    border-radius: 3px;
+    overflow: hidden;
+}
+.carousel-inner .carousel-item {
+    padding: 30px;
+}
+.InnerText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.InnerText p {
+    margin-bottom: 0;
+}
+.ImageHeight {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+}
+.carousel-control-prev {
+    position: absolute;
+    bottom: 32px;
+    height: 20px;
+    width: 20px;
+    right: 50px;
+    left: auto;
+    top: auto;
+    color: #000;
+}
+.carousel-control-next {
+    position: absolute;
+    bottom: 32px;
+    height: 20px;
+    width: 20px;
+    right: 20px;
+    left: auto;
+    top: auto;
+    color: #000;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    align-items: center;
+    display: flex !important;    
+    justify-content: center;
+    font-size: 25px !important;
+    background: #fff;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #000;
+}
+.ServingSection {
+    padding: 150px 0;
+    background: #f1f1f1;
+}
+.DownloadSection {
+    padding: 80px 0;
+    background: #000;
+}
+.InnerServingSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.HeadingSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.HeadingSection h4, .FirstSection h5 {
+    font-family: 'FiraSans-Bold';
+    text-transform: uppercase;
+}
+.HeadingSection p {
+    font-size: 12px;
+}
+.IntroServing {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.DownloadSection .HeadingSection h4 {
+    color: #1d55a4;
+}
+.DownloadSection .HeadingSection p {
+    color:#fff;
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+.SeePlan {
+    font-size: 12px;
+    padding-top: 10px;
+}
+.HeightOfImg {
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.HeightOfImg video {
+    display: block;
+    position: relative;
+    left: 125px;
+}
+.AlignItemsWithCenter {
+    justify-content: center;
+}
+.TrustedCard .card-text {
+    font-size: 12px;
+}
+.UserImages {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.UserImages img {
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.TrustedCard {
+    border: none;
+}
+.TrustedCard .card-body {
+    padding: 0;
+}
+.CmtName {
+    font-family: 'FiraSans-Bold';
+}
+.NameOfCmt {
+    color: #1d55a4;
+}
+.ImageCarousel {
+    overflow: hidden;
+}
+.ImageCarouselFuture {
+    overflow: hidden;
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+.TopOfFuturesText {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}

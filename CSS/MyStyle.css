@@ -4,19 +4,19 @@
 }
 @font-face {
   font-family: 'FiraSans-Bold';
-  src: url('../../TagifilesHome/fonts/FiraSans-Bold.ttf');
+  src: url('fonts/FiraSans-Bold.ttf');
 }
 @font-face {
   font-family: 'FiraSans-Light';
-  src: url('../../TagifilesHome/fonts/FiraSans-Light.ttf');
+  src: url('fonts/FiraSans-Light.ttf');
 }
 @font-face {
   font-family: 'FiraSans-Medium';
-  src: url('../../TagifilesHome/fonts/FiraSans-Medium.ttf');
+  src: url('fonts/FiraSans-Medium.ttf');
 }
 @font-face {
   font-family: 'FiraSans-Regular';
-  src: url('../../TagifilesHome/fonts/FiraSans-Regular.ttf');
+  src: url('fonts/FiraSans-Regular.ttf');
 }
 body {
     font-family: 'FiraSans-Regular';
